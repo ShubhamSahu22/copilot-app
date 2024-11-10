@@ -1,4 +1,4 @@
-# Welcome to Copilot.rocks
+# Welcome to AWS Copilot CLI
 
 ## How to use this site?
 
