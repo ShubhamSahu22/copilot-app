@@ -1,4 +1,4 @@
-# Welcome to AWS Copilot CLI 🤘🏻
+# Welcome to AWS Copilot CLI 
 
 This repo is the main repository for . Copilot.CLI is a cookbook to develop, build, and operate applications using AWS Copilot. 
 
