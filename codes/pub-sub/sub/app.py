@@ -4,7 +4,7 @@ import os
 from botocore.exceptions import ClientError
 import json
 
-AWS_REGION = 'ap-southeast-1'
+AWS_REGION = 'us-east-1'
 COPILOT_QUEUE_URI = os.getenv("COPILOT_QUEUE_URI")
 logger = logging.getLogger()
 logging.basicConfig(level=logging.INFO,
