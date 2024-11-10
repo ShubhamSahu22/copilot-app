@@ -8,7 +8,7 @@ def generate_random(char_length):
    characters = string.ascii_lowercase
    return ''.join(random.choice(characters) for i in range(char_length))
 
-AWS_REGION='ap-southeast-1'
+AWS_REGION='us-east-1'
 TOPIC_ARNS = json.loads(os.getenv("COPILOT_SNS_TOPIC_ARNS"))
 client = boto3.client('sns', region_name=AWS_REGION)
 app = Flask(__name__)
